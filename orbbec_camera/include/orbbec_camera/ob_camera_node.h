@@ -538,7 +538,7 @@ class OBCameraNode {
   std::string camera_link_frame_id_;
   bool depth_registration_ = false;
   // Param to enable/disable matching registered depth resolution to the RGB stream
-  bool match_target_resolution_ = false;
+  bool match_target_resolution_ = true;
   std::map<stream_index_pair, std::string> image_qos_;
   std::map<stream_index_pair, std::string> camera_info_qos_;
   std::map<stream_index_pair, ob_format> format_;

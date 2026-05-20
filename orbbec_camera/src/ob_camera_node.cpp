@@ -2040,7 +2040,7 @@ void OBCameraNode::getParameters() {
   setAndGetNodeParameter<bool>(publish_tf_, "publish_tf", true);
   setAndGetNodeParameter<double>(tf_publish_rate_, "tf_publish_rate", 0.0);
   setAndGetNodeParameter<bool>(depth_registration_, "depth_registration", false);
-  setAndGetNodeParameter<bool>(match_target_resolution_, "match_target_resolution", false);
+  setAndGetNodeParameter<bool>(match_target_resolution_, "match_target_resolution", true);
   setAndGetNodeParameter<bool>(enable_point_cloud_, "enable_point_cloud", false);
   setAndGetNodeParameter<std::string>(ir_info_url_, "ir_info_url", "");
   setAndGetNodeParameter<std::string>(color_info_url_, "color_info_url", "");
